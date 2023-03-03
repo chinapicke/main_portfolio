@@ -4,38 +4,32 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import "../styles/Header.css";
 import mylogo from './myLogo.png';
-import {RxHamburgerMenu} from 'react-icons/rx';
+import 'bootstrap/dist/css/bootstrap.css'
+import { Nav, Navbar, NavDropdown } from 'react-bootstrap'
 
 
 
 function Header() {
     return (
-        <div className='header'>
-            <div className='topBanner'>
-                <nav className='navbar me-auto mb-2 mb-lg-0'>
-                    <a className="navbar-brand">
-                        <img src={mylogo} />
-                        China Pickering 
-                    </a>
-                    <ul className='navbar-list '>
-                        <li className='nav-item'>
-                            <NavLink to="/">Home</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink to="aboutme">About Me</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink to="projects">Projects</NavLink>
-                        </li>
-                        <li className='nav-item'>
-                            <NavLink to="contactme">Contact Me</NavLink>
-                        </li>
-                    </ul>
-                    <div className='menuDropdown'>
-                    <RxHamburgerMenu />
-                    </div>
-                </nav>
-            </div>
+        <div className="header">
+            <Navbar bg="white" 
+                sticky="top" expand="sm" collapseOnSelect>
+                <Navbar.Brand>
+                    <img src={mylogo} />
+                    China Pickering
+                </Navbar.Brand>
+
+                <Navbar.Toggle className="coloring" />
+                <Navbar.Collapse>
+                    <Nav className= 'nav-item'>
+                        <Nav.Link className= 'nav-links' href="/">Home</Nav.Link>
+                        <Nav.Link className= 'nav-links' href="aboutme">About Me</Nav.Link>
+                        <Nav.Link className= 'nav-links' href="projects">Proects</Nav.Link>
+                        <Nav.Link className= 'nav-links' href="contactme">Contact Me</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+
+            </Navbar>
         </div>
     )
 }

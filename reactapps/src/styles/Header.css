@@ -1,12 +1,4 @@
-.navbar{
-    display:flex;
-    flex-direction: row;
-   justify-content: flex-start; 
-}
 
-.navbar-list {
-    list-style: none;
-}
 
 .nav-item{
     display: inline-block;
@@ -14,16 +6,11 @@
     letter-spacing: 1px;
     padding: 20px;
     font-weight: bold;
-    color:white;
 }
 
-li a{
-    color: black;
-    text-decoration: none;
-    transform: all ease 0.5s;
-} 
 
-li:hover{
+
+.nav-links:hover{
     color: white;
     text-decoration: none;
     background-color: rgba(150,168,175,0.2)
@@ -36,27 +23,33 @@ img{
     padding: 10px;
 }
 
-.menuDropdown{
-    display:none;
+
+
+/* @media (max-width: 761px) {
+
+.nav-item{
+        position: relative;
 }
-
-
-@media (max-width: 761px) {
+    
 .navbar-list{
     /* help to get into burger menu dropdown https://www.youtube.com/watch?v=kNiic1CaXrQ&t=394s */
-    display: grid;
-    position: absolute;
-    background-color: rgba(150,168,175,0.2);
+    /* display: flex;
+    flex-direction: column;
     width:100%;
-    top: 100%;
-    text-align: right;
-}
+    text-align: right; 
 
+    
+}
 .menuDropdown{
     display:block;
+    position: relative;
     font-size: 50px;
-    position:absolute;
-    right: 50px;
+    left:100px;
+    
+}
 
+.exitDropdown{
+    display: block;
 }
-}
+
+}  */
