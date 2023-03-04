@@ -2,11 +2,16 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import MyPicture from './me.png';
+import MyPicture from '../assets/me.png';
+import Contact from './Contact';
+import About from './AboutMe';
+import Projects from './Projects';
+
 
 function Homepage() {
   return (
-    <div className='heroBanner'>
+    <>
+        <div className='heroBanner'>
        <Container>
       <Row>
         <Col sm={8} className='heroInfo'>
@@ -20,8 +25,11 @@ function Homepage() {
         </Col>
       </Row>
       </Container>
-      
     </div>
+    <About />
+    <Projects />
+    <Contact />
+</>
   )
 }
 
