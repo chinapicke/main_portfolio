@@ -23,17 +23,17 @@ function ProjectCard(props) {
    
 
     return (
-                <Card className= "maincardBody me-2 mb-5" style={{ width: '40rem' }}>
+                <Card className= "maincardBody me-2 mb-5 pb-0" style={{ width: '40rem', height:'30rem' }}>
                     <Row>
-                        <Col className="leftSideCard mt-3 ms-3 mb-3">
-                            <Card className="infoAndPicture" style={{ width: '25rem' }}>
-                                <Card.Img className="projectImage"variant="top" alt={props.projectname} src={props.image} />
+                        <Col className="leftSideCard pt-3 ms-3 pb-1 mb-2">
+                            <Card className="infoAndPicture d-flex flex-column" style={{ width: '25rem', height:'28rem' }}>
+                                <Card.Img className="projectImage"variant="card-img-top" alt={props.projectname} src={props.image} />
                                 <Card.Body>
                                     <Card.Title className="projectTitle">{props.projectname}</Card.Title>
-                                    <Card.Text className="projectDescription">{props.description}</Card.Text>
+                                    <Card.Text className="projectDescription text-justify">{props.description}</Card.Text>
                                     <div className='projectButtons'>
-                                    <Button onClick={handleClickUrl} className="deployedURL me-4">Deployed Site</Button>
-                                    <Button onClick={githubRedirect} className="githubUrl">Github</Button>  
+                                    <Button onClick={handleClickUrl} className="deployedURL me-5 ms-5 mt-auto">Deployed Site</Button>
+                                    <Button onClick={githubRedirect} className="githubUrl mt-auto">Github Link</Button>  
                                     </div>
                                 </Card.Body>
                             </Card>
@@ -41,16 +41,13 @@ function ProjectCard(props) {
                         <Col className="rightSideCard">
                             <h1 className='thingsUsed'>HTML</h1>
                             <img src='/images/html.png' className="iconsUsed"></img>
-                            <hr></hr>
                             <p className='describeUsed'>Skeleton used for the creation of each webpage .</p>
                             <h1 className='thingsUsed'>CSS</h1>
                             <img src='/images/css.png' className="iconsUsed"></img>
-                            <hr></hr>
                             <p className='describeUsed'>Used to help style webpages from the HTML. </p>
                             <h1 className='thingsUsed'>JavaScript</h1>
                             <img src='/images/js.png' className="iconsUsed"></img>
-                            <hr></hr>
-                            <p className='describeUsed'>Describes the behaviour of the webpage to encourage user interaction with the page.</p>
+                            <p className='describeUsed'>Describes the behaviour of the webpage<br></br>encourage user interaction with the page.</p>
                         </Col>
                     </Row>
                 </Card>

@@ -4,6 +4,7 @@ import ContactInfo from './ContactInfo.js';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import '../styles/Contact.css'
 
 
 function Contact() {
@@ -11,7 +12,7 @@ function Contact() {
     <div className="wholecontactarea">
       <h1 className="text-center">Contact Me</h1>
       <p className="text-center">Get in touch </p>
-      <Container fluid="md">
+      <Container className='formLinksArea' fluid="md">
         <Row>
           <Col>
             <aside className="leftContactInfo">
@@ -23,7 +24,6 @@ function Contact() {
               <ContactForm />
             </aside>
           </Col>
-
         </Row>
       </Container>
     </div>

@@ -10,12 +10,10 @@
     "link": "https://github.com/chinapicke"
   },
   {
-    "name": "Email",
     "icon": "/images/mail.png",
     "show": "chinapickering@hotmail.co.uk"
   },
   {
-    "name": "Phone",
     "icon": "/images/phone-call.png",
     "show": "07563920731"
   }

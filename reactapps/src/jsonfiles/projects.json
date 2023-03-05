@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "projectname": "Broke but cultured",
-        "description": "Broke but cultured that is the project",
+        "description": "App that helps travelers with budgeting their trips. It includes a travel currency converter with a search input by country that provides the user with currency exchange data, links to travel information and costs of the searched country. Different API's used to render content for the user.",
         "image":"/images/brokebutcultured.png",
         "deployedURL": "https://chinapicke.github.io/-broke-but-cultured/",
         "githubUrl": "https://github.com/chinapicke/-broke-but-cultured.git"    
@@ -10,7 +10,7 @@
     {
         "id" : 2,
         "projectname": "Weather App",
-        "description": "Weather app that is the project",
+        "description": "Weather app using weather API to display the current weather and 5 day forecast for cities. User inputs city name into the input bar, once user selects the 'search' button, then it will save the city into a button. This button will store the daily and 5 day forecast.",
         "image":"/images/weather.png" ,
         "deployedURL": "https://chinapicke.github.io/Weather_Forecast-/",
         "githubUrl": "https://github.com/chinapicke/Weather_Forecast-.git"      
@@ -18,7 +18,7 @@
     {
         "id" : 3,
         "projectname": "Daily Planner",
-        "description": "Daily planner is the project",
+        "description": "Daily planner created to help with scheduling information within the working hours of the day between 9am and 5pm. Information is stored on the page. Each hour slot is coloured based on whether it is before, during or after the currnet hour.",
         "image": "/images/planner.png",
         "deployedURL": "https://chinapicke.github.io/Daily_Planner/",
         "githubUrl": "https://github.com/chinapicke/Daily_Planner.git"      
@@ -26,7 +26,7 @@
     {
         "id" : 4,
         "projectname": "Code Quiz",
-        "description": "Multiple Choice Quiz is the project",
+        "description": "Quiz with  6 questions orientated around HTML, CSS and Javascript. Each question shows 4 answers each. Timer showed during and deducts time when question is incorrectly answered. User's score is stored in the leaderboard once they input their initials.",
         "image": "/images/MCQ.png",
         "deployedURL": "https://chinapicke.github.io/Multiple-Choice-Quiz/",
         "githubUrl": "https://github.com/chinapicke/Multiple-Choice-Quiz.git"     
@@ -34,7 +34,7 @@
     {
         "id" : 5,
         "projectname": "Password Generator",
-        "description": "Password generator that is the project",
+        "description": "Website to help users generate passwords with high security by randomising character. Users can select the different types they want to include; numbers, lowercase, uppercase and special characters. User is also able to select password length between 10 and 64.",
         "image": "/images/passwordgenerator.png" ,
         "deployedURL": "https://chinapicke.github.io/Password_Generator/",
         "githubUrl": "https://github.com/chinapicke/Password_Generator.git"     
@@ -42,7 +42,7 @@
     {
         "id" : 6,
         "projectname": "Horiseon",
-        "description": "Horiseon that is the project",
+        "description": "An interative and accessible webpage for users to attain information on how to optimise their digital marketing. This was one of the first projects using CSS wiht no Javascript. Therefore there is no user interaction with the webpage. Navbar is hyperlinked",
         "image": "/images/horiseon.png" ,
         "deployedURL": "https://chinapicke.github.io/first_challenge/",
         "githubUrl": "https://github.com/chinapicke/first_challenge.git"      

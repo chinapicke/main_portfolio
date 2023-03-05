@@ -1,3 +1,7 @@
+.homepage{
+    background-color: white;
+}
+
 .heroPicture{
     width:29rem;
     height:27rem;
@@ -12,6 +16,6 @@
     padding-bottom:90px;
 }
 
-h1{
+.name{
     margin-top: 50px;
 }

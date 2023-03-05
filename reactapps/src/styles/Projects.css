@@ -1,3 +1,8 @@
+.projects{
+    background-color:rgba(150,168,175,0.5); 
+}
+
+
 .bigcard{
 display: flex;
 flex-direction: row;
@@ -8,30 +13,41 @@ justify-content: space-between;
 
 .projectsTitle{
     text-align: center;
+    padding-top:30px;
 }
 
 .card-title{
-    padding: 30px;  
+    margin-bottom: 10px;
 }
 
 .thingsUsed{
     font-size: 20px;
     position: relative;
     top: 18px;
-    right: 10px;
+    left: 30px;
+    padding-top:10px;
 }
 
 .describeUsed{
-    font-size: 10px;
-}
-
-.card-body{
-    margin-bottom: 140px;
+ font-size: 15px;
 }
 
 .iconsUsed{
-    width: 3rem;
-    height: 3rem;
-    float:right;
+    width: 2rem;
+    height: 2em;
+    position:relative;
+    right:10px;
+    bottom:20px;
+}
+
+
+.infoAndPicture{
+    background-color: rgba(150,168,175,0.5); 
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+.deployedURL{
+    margin-right: 60px;
 }
 
