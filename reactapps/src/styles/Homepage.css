@@ -1,6 +1,9 @@
 .heroPicture{
-    width:20%;
-    height:10rem;
+    width:29rem;
+    height:27rem;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left:50px;
 }
 
 .heroBanner{

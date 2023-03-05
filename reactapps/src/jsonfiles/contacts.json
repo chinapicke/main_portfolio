@@ -1,22 +1,22 @@
 [
   {
     "name": "LinkedIn",
-    "icon": "../assets/linkedin.png",
+    "icon": "/images/linkedin.png",
     "link": "https://www.linkedin.com/in/china-pickering-019153250/"
   },
   {
     "name": "Github",
-    "icon": "../assets/github-sign.png",
+    "icon": "/images/github-sign.png",
     "link": "https://github.com/chinapicke"
   },
   {
     "name": "Email",
-    "icon": "../assets/mail.png",
+    "icon": "/images/mail.png",
     "show": "chinapickering@hotmail.co.uk"
   },
   {
     "name": "Phone",
-    "icon": "../assets/phone-call.png",
+    "icon": "/images/phone-call.png",
     "show": "07563920731"
   }
 ]

@@ -3,7 +3,7 @@
         "id" : 1,
         "projectname": "Broke but cultured",
         "description": "Broke but cultured that is the project",
-        "image":"../assets/images/brokebutcultured.png",
+        "image":"/images/brokebutcultured.png",
         "deployedURL": "https://chinapicke.github.io/-broke-but-cultured/",
         "githubUrl": "https://github.com/chinapicke/-broke-but-cultured.git"    
     }, 
@@ -11,7 +11,7 @@
         "id" : 2,
         "projectname": "Weather App",
         "description": "Weather app that is the project",
-        "image":"../assets/images/weather.png" ,
+        "image":"/images/weather.png" ,
         "deployedURL": "https://chinapicke.github.io/Weather_Forecast-/",
         "githubUrl": "https://github.com/chinapicke/Weather_Forecast-.git"      
     }, 
@@ -19,7 +19,7 @@
         "id" : 3,
         "projectname": "Daily Planner",
         "description": "Daily planner is the project",
-        "image": "../assets/images/planner.png",
+        "image": "/images/planner.png",
         "deployedURL": "https://chinapicke.github.io/Daily_Planner/",
         "githubUrl": "https://github.com/chinapicke/Daily_Planner.git"      
     }, 
@@ -27,7 +27,7 @@
         "id" : 4,
         "projectname": "Code Quiz",
         "description": "Multiple Choice Quiz is the project",
-        "image": "../assets/images/MCQ.png",
+        "image": "/images/MCQ.png",
         "deployedURL": "https://chinapicke.github.io/Multiple-Choice-Quiz/",
         "githubUrl": "https://github.com/chinapicke/Multiple-Choice-Quiz.git"     
     }, 
@@ -35,7 +35,7 @@
         "id" : 5,
         "projectname": "Password Generator",
         "description": "Password generator that is the project",
-        "image": "../assets/images/passwordgenerator.png" ,
+        "image": "/images/passwordgenerator.png" ,
         "deployedURL": "https://chinapicke.github.io/Password_Generator/",
         "githubUrl": "https://github.com/chinapicke/Password_Generator.git"     
     },
@@ -43,7 +43,7 @@
         "id" : 6,
         "projectname": "Horiseon",
         "description": "Horiseon that is the project",
-        "image": "../assets/images/horiseon.png" ,
+        "image": "/images/horiseon.png" ,
         "deployedURL": "https://chinapicke.github.io/first_challenge/",
         "githubUrl": "https://github.com/chinapicke/first_challenge.git"      
     }

@@ -12,7 +12,7 @@ function Header() {
             <Navbar bg="white" 
                 sticky="top" expand="sm" collapseOnSelect>
                 <Navbar.Brand>
-                    <img src={mylogo} />
+                    <img className='logo'src={mylogo} />
                     China Pickering
                 </Navbar.Brand>
 

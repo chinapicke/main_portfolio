@@ -5,9 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import ProjectCards from '../jsonfiles/projects.json';
 import '../styles/Projects.css';
-import '../assets/html-5.png'
-import '../assets/css-3.png'
-import '../assets/js.png'
+
 
 
 function ProjectCard(props) {
@@ -25,32 +23,34 @@ function ProjectCard(props) {
    
 
     return (
-                <Card className= "maincardBody me-2 mb-5" style={{ width: '35rem' }}>
+                <Card className= "maincardBody me-2 mb-5" style={{ width: '40rem' }}>
                     <Row>
-                        <Col className="leftSideCard">
-                            <Card className="infoAndPicture" style={{ width: '20rem' }}>
+                        <Col className="leftSideCard mt-3 ms-3 mb-3">
+                            <Card className="infoAndPicture" style={{ width: '25rem' }}>
                                 <Card.Img className="projectImage"variant="top" alt={props.projectname} src={props.image} />
                                 <Card.Body>
                                     <Card.Title className="projectTitle">{props.projectname}</Card.Title>
                                     <Card.Text className="projectDescription">{props.description}</Card.Text>
+                                    <div className='projectButtons'>
                                     <Button onClick={handleClickUrl} className="deployedURL me-4">Deployed Site</Button>
-                                    <Button onClick={githubRedirect} className="deployedURL">Github</Button>
+                                    <Button onClick={githubRedirect} className="githubUrl">Github</Button>  
+                                    </div>
                                 </Card.Body>
                             </Card>
                         </Col>
                         <Col className="rightSideCard">
-                            <h1>HTML</h1>
-                            <img src='../assets/html-5.png'></img>
-                            <p></p>
+                            <h1 className='thingsUsed'>HTML</h1>
+                            <img src='/images/html.png' className="iconsUsed"></img>
                             <hr></hr>
-                            <h1>CSS</h1>
-                            <img src='../assets/css-3.png'></img>
-                            <p></p>
+                            <p className='describeUsed'>Skeleton used for the creation of each webpage .</p>
+                            <h1 className='thingsUsed'>CSS</h1>
+                            <img src='/images/css.png' className="iconsUsed"></img>
                             <hr></hr>
-                            <h1>JavaScript</h1>
-                            <img src='../assets/js.png'></img>
-                            <p></p>
+                            <p className='describeUsed'>Used to help style webpages from the HTML. </p>
+                            <h1 className='thingsUsed'>JavaScript</h1>
+                            <img src='/images/js.png' className="iconsUsed"></img>
                             <hr></hr>
+                            <p className='describeUsed'>Describes the behaviour of the webpage to encourage user interaction with the page.</p>
                         </Col>
                     </Row>
                 </Card>

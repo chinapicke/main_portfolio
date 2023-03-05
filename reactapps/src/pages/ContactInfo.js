@@ -7,10 +7,11 @@ import CV from '../assets/chinapickeringCV.pdf'
 
 
 
+
 function Contacts(props){
   return (
     <Row>
-      <Col>
+      <Col className='icons'>
       <img src={props.icon} />
       </Col>
       <Col>
