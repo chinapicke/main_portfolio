@@ -1,4 +1,6 @@
-
+.heroBanner{
+    background-color: light;
+}
 .nav-item{
     display: inline-block;
     text-transform: uppercase;

@@ -2,43 +2,43 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { BsFillTelephoneFill } from 'react-icons/bs'
-import { BsGithub } from 'react-icons/bs'
-import { HiOutlineMail } from 'react-icons/hi'
-import { BsLinkedin } from 'react-icons/bs'
+import ContactShow from '../jsonfiles/contacts.json'
+import CV from '../assets/chinapickeringCV.pdf'
 
-const contactLinks = [
-  {
-    name: 'LinkedIn',
-    icon:  BsLinkedin,
-    link: 'https://www.linkedin.com/in/joshua-murphy-7a20b1120/'
-  },
-  {
-    name: 'Github',
-    icon:  BsGithub,
-    link: 'https://www.linkedin.com/in/joshua-murphy-7a20b1120/'
-  },
-  {
-    name: 'Email',
-    icon:  HiOutlineMail,
-    link: 'https://www.linkedin.com/in/joshua-murphy-7a20b1120/'
-  },
-  {
-    name: 'Phone',
-    icon:  BsFillTelephoneFill,
-    link: 'https://www.linkedin.com/in/joshua-murphy-7a20b1120/'
-  },
-]
+
+
+function Contacts(props){
+  return (
+    <Row>
+      <Col>
+      <img src={props.icon} />
+      </Col>
+      <Col>
+      <a href={props.link} target="_blank" rel="conttactlink">{props.name}</a>
+      <p>{props.show}</p>
+      </Col>
+    </Row>
+  )
+}
+
 
 function ContactInfo() {
-
-
   return (
     <Container>
       <Row>
-        <Col>LinkedIn</Col>
-        <Col>2 of 3</Col>
-        <Col>3 of 3</Col>
+        {ContactShow.map((link) => (
+          <Contacts
+          icon ={link.icon}
+          link={link.link}
+          name={link.name}
+          show={link.show}
+          />
+        ))}
+      </Row>
+      <Row className="CV">
+      <a href={CV} target="_blank" rel="CV link">
+        CV
+      </a>
       </Row>
     </Container>
   )

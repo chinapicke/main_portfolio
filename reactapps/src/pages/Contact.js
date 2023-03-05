@@ -5,11 +5,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 function Contact() {
   return (
     <div className="wholecontactarea">
-      <h1>Contact Me</h1>
-      <p>Get in touch </p>
+      <h1 className="text-center">Contact Me</h1>
+      <p className="text-center">Get in touch </p>
       <Container fluid="md">
         <Row>
           <Col>

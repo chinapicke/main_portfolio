@@ -1,3 +1,11 @@
-.mainCardBody{
-    display:flex;
+.bigcard{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 50px;
+justify-content: space-between;
+}
+
+.projectsTitle{
+    text-align: center;
 }
