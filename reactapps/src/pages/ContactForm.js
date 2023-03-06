@@ -11,7 +11,7 @@ const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
   const onSubmit = (e) => {
     e.preventDefault()
-    setFormStatus('Submitting...')
+    setFormStatus('Sent')
     const { name, email, message } = e.target.elements
     let conFom = {
       name: name.value,

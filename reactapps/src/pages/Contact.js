@@ -10,7 +10,7 @@ import '../styles/Contact.css'
 function Contact() {
   return (
     <div className="wholecontactarea">
-      <h1 className=" subheadingContact text-center">Contact Me</h1>
+      <h1 className=" contactHeading text-center">Contact Me</h1>
       <p className="text-center">Get in touch </p>
       <Container className='formLinksArea' fluid="md">
         <Row>

@@ -26,7 +26,7 @@ function Homepage() {
   return (
     <>
       <div className='heroBanner'>
-        <Container>
+        <Container >
           <Row>
           <Particles 
                 canvasClassName="example"
@@ -45,15 +45,15 @@ function Homepage() {
             <Col sm={6} className='heroInfo'>
               <h1 className='name'>China Pickering</h1>
               <h2 className='headerSubheading'>Portfolio</h2>
-              <h3>Learning the new world of software development whilst travelling the world</h3>
+              <h3 className='phrase'>Learning the new world of software development whilst travelling the world</h3>
               <Link to='/aboutme'>
-                <Button onClick={viewAbout} variant="primary" className='me-4'>Get to know me</Button>
+                <Button onClick={viewAbout} variant="primary" size='lg' className='AboutmeBtn me-4'>Get to know me</Button>
               </Link>
               <Link to='/contactme'>
-                <Button oncClick={viewContact} variant="light">Contact Me</Button>
+                <Button oncClick={viewContact} variant="light"size='lg' className='contactBtn'>Contact Me</Button>
               </Link>
             </Col>
-            <img className='heroPicture' src={MyPicture} />
+            <img className='heroPicture' src={MyPicture} alt='picture of me'/>
             <Col>
             </Col>
           </Row>

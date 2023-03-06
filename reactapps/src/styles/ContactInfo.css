@@ -1,5 +1,6 @@
 .contactLinks{
    margin: 20px;
+   padding-top: 20px;
 }
 
 .linkImage{
@@ -26,8 +27,43 @@
 }
 
 .CVLink{
-    font-size: 20px;
+    font-size: 30px;
     color: black;
     text-decoration: none;
-    
+    margin-top: 10px;
+}
+
+.contactURL{
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+}
+
+.CVText{
+    margin-top:40px;
+    position: relative;
+    right:180px;
+}
+
+.phoneEmail{
+   margin-top: 10px;
+}
+
+@media (max-width: 768px){
+    .CVText{
+        right: 60px;
+    }
+}
+
+
+/* For phones */
+@media (max-width: 480px){
+    .contactLinks{
+        margin:0;
+        margin-left:10px;
+    }
+
+    .CVText{
+        right:70px;
+    }
 }

@@ -2,6 +2,7 @@
     border: 2px solid black;
     border-radius: 5px;
     background-color: white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
 }
 
 .wholecontactarea{
@@ -11,5 +12,10 @@
     margin-bottom: 20px;
     padding-bottom: 50px;
     border-radius: 1%;
+}
+
+.contactHeading{
+    font-family: 'Righteous';
+    padding-top: 20px;
 }
 
