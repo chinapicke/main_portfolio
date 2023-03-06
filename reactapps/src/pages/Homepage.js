@@ -9,6 +9,8 @@ import Projects from './Projects';
 import { Link } from 'react-router-dom'
 import Button from 'react-bootstrap/Button';
 import '../styles/Homepage.css';
+import Particles from './Particles';
+
 
 
 function Homepage() {
@@ -26,6 +28,20 @@ function Homepage() {
       <div className='heroBanner'>
         <Container>
           <Row>
+          <Particles 
+                canvasClassName="example"
+                height="120px"
+                width="100px"
+                params={{
+                    polygon: {
+                        enable: true,
+                        type: 'inside',
+                        move: {
+                            radius: 10
+                        },
+                        url: 'path/to/svg.svg'
+                    }
+                }} />
             <Col sm={6} className='heroInfo'>
               <h1 className='name'>China Pickering</h1>
               <h2 className='headerSubheading'>Portfolio</h2>
@@ -42,6 +58,7 @@ function Homepage() {
             </Col>
           </Row>
         </Container>
+       
       </div>
       <About />
       <Projects />

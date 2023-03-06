@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import '../styles/AboutMe.css';
 
 function AboutMe() {
   return (
@@ -21,7 +22,8 @@ function AboutMe() {
             <li>bootstrap</li>
         </ul>
     </Col>
-    <Col>
+    <Col sm={6}>
+      <img className='aboutImage' src='/images/me.png'></img>
     </Col>
   </Row>
   </Row>
