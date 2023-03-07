@@ -1,23 +1,10 @@
 import React from 'react'
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import '../styles/ContactForm.css';
 import { useState } from 'react';
 
 
 const ContactForm = () => {
-  // const [formStatus, setFormStatus] = React.useState('Send')
-  // const onSubmit = (e) => {
-  //   e.preventDefault()
-  //   setFormStatus('Submitting...')
-  //   const { name, email, message } = e.target.elements
-  //   let conForm = {
-  //     name: name.value,
-  //     email: email.value,
-  //     message: message.value,
-  //   }
-  //   console.log(conForm)
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');

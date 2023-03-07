@@ -82,4 +82,11 @@
         position: relative;
         left: 5px;
     }
+    .name, .headerSubheading, .phrase{
+        text-align: center;
+    }
+
+    .name, .phrase{
+        margin-right: 30px;
+    }
 }

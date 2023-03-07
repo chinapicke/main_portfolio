@@ -30,7 +30,6 @@ function Header() {
                 <Navbar.Brand>
                     <a href='https://www.linkedin.com/in/china-pickering-019153250/' target="_blank" rel="linkedInLinkNav">
                         <img className='linkedinNav' src={LinkedinNav} alt='linkedin Icon' />
-
                     </a>
                 </Navbar.Brand>
                 <Navbar.Brand>

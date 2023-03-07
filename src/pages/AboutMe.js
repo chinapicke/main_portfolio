@@ -16,14 +16,6 @@ function AboutMe() {
         <div className='skills'>
           <h2 className='skillsSubheading'>Skills</h2>
           <div className='skillsList'>
-            {/* <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>node.js</li>
-            <li>jQuery</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-            <li>..any many soft skills</li> */}
             <img src='/images/html.png' alt='HTML skill' className='skillIcon' style={{width: '50px',height:'50px', margin:'10px'}}/>
             <img src='/images/css.png' alt='CSS skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
             <img src='/images/js.png' alt='JS skill' className='skillIcon' style={{width: '50px',height:'50px', margin:'10px'}}/>
@@ -31,8 +23,7 @@ function AboutMe() {
             <img src='/images/git.png' alt='Git skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
             <img src='/images/jquery.png' alt='JQuery skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
             <img src='/images/node.png' alt='Node skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
-            <img src='/images/atom.png' alt='Atom skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
-
+            <img src='/images/atom.png' alt='React skill' className='skillIcon'  style={{width: '50px',height:'50px', margin:'10px'}}/>
           </div>
         </div>
       </Col>

@@ -45,7 +45,7 @@ function Homepage() {
             <Col sm={6} className='heroInfo'>
               <h1 className='name'>China Pickering</h1>
               <h2 className='headerSubheading'>Portfolio</h2>
-              <h3 className='phrase'>Learning website development from sratch, whilst travelling the WORLD!</h3>
+              <h3 className='phrase'>Learning website development from scratch, whilst travelling the WORLD!</h3>
               <Link to='/aboutme'>
                 <Button onClick={viewAbout} variant="primary" size='lg' className='AboutmeBtn me-4'>Get to know me</Button>
               </Link>
