@@ -11,20 +11,20 @@ const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
   const onSubmit = (e) => {
     e.preventDefault()
-    setFormStatus('Sent')
+    setFormStatus('Submitting...')
     const { name, email, message } = e.target.elements
-    let conFom = {
+    let conForm = {
       name: name.value,
       email: email.value,
       message: message.value,
     }
-    console.log(conFom)
+    console.log(conForm)
   }
   return (
-    <Form className='contactForm' onSubmit={onSubmit} method="post" data-netlify="true">
+    <Form className='contactForm' name='contactForm' onSubmit={onSubmit} method="post" data-netlify="true">
+      <input type="hidden" name="form-name" value="contactForm" />
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
-        <Form.Control type="hidden" name="form-name" value="contact" />
           <Form.Label>FirstName</Form.Label>
           <Form.Control type="text" placeholder="Firstname" />
         </Form.Group>
