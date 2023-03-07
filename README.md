@@ -22,7 +22,7 @@
   ## Usage
   Website is deployed using Netlify.
   Users can interact with the page by clicking buttons to go to different links and interact with form submission.
-  ![image](./src/assets/Untitled_%20Mar%207%2C%202023%2011_47%20AM.gif)
+  ![image](./src/assets/Untitled_%20Mar%207%2C%202023%208_28%20PM.gif)
 
   ## Contributions
   No
