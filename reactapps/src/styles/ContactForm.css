@@ -1,4 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+
 .contactForm{
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    width: 190%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.email{
+    width: 174% !important;
+}
+
+.thoughts{
+    width: 153%;
+    padding-bottom: 70px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.submitForm{
+margin-left: 220px;
+margin-top: 10px;
+}
+
+.rightContactForm{
+    display: flex;
+}
+
+@media (max-width: 768px){
+    input{
+        padding: 10px;
+        width: 115%;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+    
+    
+    .email{
+        width: 105% !important;
+    }
+    
+    .thoughts{
+        width: 98%;
+        padding: 40px;
+}
 }

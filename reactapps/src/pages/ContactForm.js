@@ -1,7 +1,7 @@
 import React from 'react'
 // import Col from 'react-bootstrap/Col';
 // import Row from 'react-bootstrap/Row';
-// import Button from 'react-bootstrap/Button';
+import Button from 'react-bootstrap/Button';
 import '../styles/ContactForm.css';
 import { useState } from 'react';
 
@@ -24,11 +24,11 @@ const ContactForm = () => {
 
 
   return (
-    <form name="contact" netlify method="post">
+    <form className='contactForm' name="contact" netlify method="post">
       <input type="hidden" name="form-name" value="contact" />
       <div className="form-group">
         <label htmlFor="name">
-          Your Name
+          Full Name
           <input
             type="text"
             id="name"
@@ -40,10 +40,11 @@ const ContactForm = () => {
       </div>
       <div className="form-group">
         <label htmlFor="email">
-          Your Email
+          Email address
           <input
             type="email"
             id="email"
+            className='email'
             name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -52,17 +53,18 @@ const ContactForm = () => {
       </div>
       <div className="form-group">
         <label htmlFor="message">
-          Your message
-          <textarea
+          Share your thoughs 
+          <input
             type="text"
             id="message"
             name="message"
+            className='thoughts'
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
         </label>
       </div>
-      <button type="submit">Send</button>
+      <Button className='submitForm btn btn-dark' size='lg' type="submit">Send</Button>
     </form>
   )
 }
