@@ -1,6 +1,5 @@
 import React from 'react'
 // import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
 // import Row from 'react-bootstrap/Row';
 // import Button from 'react-bootstrap/Button';
 import '../styles/ContactForm.css';
@@ -25,7 +24,8 @@ const ContactForm = () => {
 
 
   return (
-    <Form>
+    <form name="contact" netlify method="post">
+      <input type="hidden" name="form-name" value="contact" />
       <div className="form-group">
         <label htmlFor="name">
           Your Name
@@ -63,7 +63,7 @@ const ContactForm = () => {
         </label>
       </div>
       <button type="submit">Send</button>
-    </Form>
+    </form>
   )
 }
 export default ContactForm
