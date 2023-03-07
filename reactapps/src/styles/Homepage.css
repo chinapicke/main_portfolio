@@ -2,11 +2,12 @@
 
 
 .heroPicture{
-    width:25rem;
-    height:24rem;
-    margin-top: 30px;
+    width:26rem;
+    height:25rem;
+    margin-top: 60px;
     margin-left:60px;
     position: relative;
+    left: 50px;
     border-radius: 50%;
     border: 2px solid white;
     padding: 0;
@@ -23,7 +24,7 @@
 .name{
     font-size: 80px;
     font-weight:400;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .headerSubheading{
@@ -34,7 +35,7 @@
 
 .phrase{
     font-size: 20px;
-    padding-bottom:50px;
+    padding-bottom: 30px;
     padding-top: 50px;
 
 }
@@ -52,6 +53,11 @@
     position:absolute !important;
 }
 
+.AboutmeBtn{
+    background-color:  #c68f73;
+    border: 1px #c68f73 solid;;
+}
+
 @media (max-width: 768px){
     .projectsAll, .aboutContent{
         background-color: rgba(150, 168, 175, 0.5);
@@ -59,6 +65,7 @@
     .heroPicture{
         position: relative;
         top: 50px;
+        left: 10px;
         width: 18rem;
         height: 18rem;
     }
@@ -72,5 +79,7 @@
     .heroPicture{
         width:15rem;
         height:14rem;
+        position: relative;
+        left: 5px;
     }
 }

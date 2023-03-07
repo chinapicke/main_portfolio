@@ -70,6 +70,11 @@
     padding-left: 30px;
 }
 
+.projectTitle{
+    text-align: center;
+    font-weight: 600;
+}
+
 @media (max-width: 768px){
     .bigcard{
         padding-left: 60px;
@@ -86,17 +91,31 @@
     }
 
    .infoAndPicture{
-    width: 85vw !important;
-    padding-bottom: 5px;
-   }
+    width: 82vw !important;
+    padding-bottom: 5px ;
+}
+
 
    .projectButtons{
-    padding-left: 0;
-   
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;    
+   }
+
+   .projectContent{
+    margin-bottom: 20px;
    }
 
    .projectsTitle p{
     margin: 10px;
    }
-   
+
+  .projectDescription { 
+    font-size: 15px;
+   }
+
+   .bigcard{
+    padding-left: 20px;
+   }
+
 }

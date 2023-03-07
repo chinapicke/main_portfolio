@@ -31,7 +31,7 @@ function Homepage() {
           <Particles 
                 canvasClassName="example"
                 height="120px"
-                width="100px"
+                width="100vw"
                 params={{
                     polygon: {
                         enable: true,

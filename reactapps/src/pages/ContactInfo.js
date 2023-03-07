@@ -13,10 +13,12 @@ function Contacts(props){
   return (
     <Row className='linkImageText'>
       <Col className='icons' xs={2}>
-      <img src={props.icon} className='linkImage' alt='contact icons'/>
+      <a href={props.link} target="_blank" rel="contactlink"  className='contactURL'>
+      <img src={props.icon} className='linkImage mt-2' alt='contact icons'/>
+      </a>
       </Col>
       <Col xs={4} className='linksAndInfo'>
-      <a href={props.link} target="_blank" rel="contactlink"  className='contactURL'>{props.name}</a>
+      <p className='contactName'>{props.name}</p>
       <p className='phoneEmail'>{props.show}</p>
       </Col>
     </Row>

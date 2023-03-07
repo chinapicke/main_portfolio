@@ -21,15 +21,16 @@ const ContactForm = () => {
     console.log(conFom)
   }
   return (
-    <Form className='contactForm' onSubmit={onSubmit}>
+    <Form className='contactForm' onSubmit={onSubmit} method="post" data-netlify="true">
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
+        <Form.Control type="hidden" name="form-name" value="contact" />
           <Form.Label>FirstName</Form.Label>
           <Form.Control type="text" placeholder="Firstname" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
-          <Form.Label>Password</Form.Label>
+          <Form.Label>Surname</Form.Label>
           <Form.Control type="text" placeholder="Surname" />
         </Form.Group>
       </Row>
